@@ -1,7 +1,7 @@
 // आज की धार — सर्विस वर्कर
 // नियम: पेज हमेशा पहले नेटवर्क से (ताज़ा संस्करण); नेट न हो तो पिछला सेव किया पेज।
 // Supabase / लॉगिन / ऑर्डर के अनुरोध कभी कैश नहीं होते।
-var VERSION = "aajkidhar-v5";
+var VERSION = "aajkidhar-v6";
 var CORE = ["./", "index.html", "manifest.json", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", function(e) {
